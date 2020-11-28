@@ -1,0 +1,18 @@
+{
+    "name": "unit\/test",
+    "description": "Package description here.",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "vitaszhuo",
+            "email": "vitaszhuo@xiaoe-tech.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4
+            "Unit\\Test\\": "src"
+        }
+    },
+    "minimum-stability": "dev"
+}
