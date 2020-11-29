@@ -6,7 +6,7 @@
 ## Installing
 
 ```shell
-$ composer require unit/test -vvv
+$ composer require vitas-dev/WefUnit -vvv
 ```
 
 ## Usage
