@@ -1,5 +1,5 @@
 <?php
-namespace Unit\Test\Providers;
+namespace VitasDev\WefUnit\Providers;
 
 //集成服务提供者基类
 use Illuminate\Support\Facades\Route;
@@ -50,7 +50,7 @@ class SJunitServiceProvider extends ServiceProvider{
             //定义访问路由的域名
             //'domain' => config('telescope.domain', null),
             //是定义路由的命令
-            'namespace' => 'Unit\Test\Http\Controllers',
+            'namespace' => 'VitasDev\WefUnit\Http\Controllers',
             //这是前缀
             'prefix' => "sjunit",
             //这是中间件

@@ -1,6 +1,6 @@
 <?php
 	require_once  './vendor/autoload.php';
-	use Unit\Test\Http\Controllers\TestController;
+	use VitasDev\WefUnit\Http\Controllers\TestController;
 
 
 	$u = new TestController();

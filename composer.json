@@ -13,7 +13,14 @@
     },
     "autoload": {
         "psr-4":{
-            "Unit\\Test\\": "src"
+            "VitasDev\\WefUnit\\": "src"
+        }
+    },
+    "extra":{
+        "laravel":{
+            "providers":[
+                "VitasDev\\WefUnit\\Providers\\SJunitServiceProvider"
+            ]
         }
     },
     "minimum-stability": "dev"
