@@ -8,6 +8,7 @@ class SJunitController extends Controller
 
 	public function index()
 	{
+
 		return view("sjunit::index"); //参数传递未知
 	}
 
